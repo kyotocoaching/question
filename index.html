@@ -1,57 +1,146 @@
-@media(max-width:1150px){
-  .header-contact{
-    display: none;
-  }
-  .Toggle{
-      display: block;
-    }
-  .header-logo-right{
-    display: none;
-  }
-  .last-btn{
-  width:50%;
-  font-size:20px;
-}
-}
-@media(max-width:1000px){
-  .flow{
-    width:100%;
-  }
-  .flow-header p{
-    margin-bottom:60px;
-  }
-  .last-btn{
-width:50%;
-font-size:16px;
-}
-}
-@media(max-width:670px){
-  .flow-text{
-    margin:0 5px;
-    border-bottom:2px dotted #e0e2e2;
-  }
-  .foot-bar{
- height: 188px;
-}
-.btn-wrapper{
- display: flex;
- flex-direction: column;
- width:100%;
- height: 188px;
- text-align: center;
 
-}
-.footer-btn{
- border-bottom: 1px solid white;
- text-decoration: none;
- line-height: 47px;
- margin: 0;
-}
-footer p{
- font-size: 8px;
-}
-.last-btn br{
-display:block;
-}
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-}
+
+  </head>
+  <body>
+<header>
+	<div class="header-logo-left header">
+  	<img src="timpo.jpg" alt="">
+	</div>
+	<div class="header-logo-right header">
+  	<a href="" class="header-logo">
+    	SERVICE<small>/サービス</small>
+  	</a>
+  	<a href="" class="header-logo">
+    	WORKS<small>/制作実績</small>
+  	</a>
+  	<a href="" class="header-logo">
+    	MEDIA<small>/メディア</small>
+  	</a>
+  	<a href="" class="header-logo">
+    	COMPANY<small>/会社情報</small>
+  	</a>
+	</div>
+	<div class="header-contact">
+  	<a href="#"><i class="fas fa-envelope"></i>お見積り・お問い合わせ</a>
+	</div>
+	<div class="Toggle">
+  	<span></span><span></span><span></span>
+	</div>
+  </header>
+  <div class="btns">
+	<a href="#">SERVICE <small>サービス</small></a>
+	<a href="#">WORKS <small>制作実績</small></a>
+	<a href="#">MEDIA 　<small>メディア</small></a>
+	<a href="#">COMPANY <small>会社情報</small></a>
+	<a class="contact-btn" href="#"><i class="fas fa-envelope"></i>お問い合わせ</a>
+  </div>
+
+
+
+　　<div class="top-wrapper">
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="container">
+        <form class="" method="post">
+        　<h2>お問い合わせ</h2>
+      　　　<table>
+        <tr>
+          <th class="contact-contents">お問い合わせ内容<span>必須</span></th>
+          <td>
+            <input type="checkbox" name="entry.107212724" value="無料体験授業" />無料体験授業
+            <input type="checkbox" name="entry.107212724" value="資料請求" />資料請求
+            <input type="checkbox" name="entry.107212724" value="サービスに関するご質問"　/>サービスに関するご質問
+          </td>
+        </tr>
+        <tr>
+          <th>授業可能な曜日<span>必須</span></th>
+          <td class="weekdaays">
+            <input type="checkbox" name="entry.287558807" value="月曜日"　/>月曜日
+            <input type="checkbox" name="entry.287558807" value="火曜日"　/>火曜日
+            <input type="checkbox" name="entry.287558807" value="水曜日"　/>水曜日
+            <input type="checkbox" name="entry.287558807" value="木曜日"　/>木曜日
+            <input type="checkbox" name="entry.287558807" value="金曜日"　/>金曜日
+            <input type="checkbox" name="entry.287558807" value="土曜日"　/>土曜日
+            <input type="checkbox" name="entry.287558807" value="日曜日"　/>日曜日
+          </td>
+        </tr>
+        <tr>
+          <th>お名前<span>必須</span></th>
+          <td calss="name">
+            <input class="need"　type="text" name="entry.2005620554" value="">
+          </td>
+        </tr>
+        <tr>
+          <th>学年<span></span></th>
+          <td>
+            <input type="text" name="entry.239639914" value="">
+          </td>
+        </tr>
+        <tr>
+          <th>電話番号<span>必須</span></th>
+          <td>
+            <dt>電話番号</dt>
+            <input class="need" type="text" name="entry.1166974658" value="">
+          </td>
+        </tr>
+        <tr>
+          <th>メールアドレス<span>必須</span></th>
+          <td>
+            <input class="need" type="text" name="entry.1045781291" value="">
+            <p>連絡がつくメールアドレスをご入力ください。</p>
+          </td>
+        </tr>
+        <tr>
+          <th>質問・ご相談<span>必須</span></th>
+          <td>
+            <textarea class="need" name="entry.839337160" rows="8" cols="80"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th></th>
+          <td>
+            <input type="submit" name="" value="送信">
+          </td>
+        </tr>
+      </table>
+    </form>
+
+  <footer>
+  <div class="last-btn">"無料体験授業"は<br>こちら≫</div>
+	<div class="foot-bar">
+  	<div class="btn-wrapper">
+    	<a class="footer-btn" href="#">HOME</a>
+    	<a class="footer-btn" href="#">SERVICE</a>
+    	<a class="footer-btn" href="#">TUITION</a>
+    	<a class="footer-btn" href="#">FLOW</a>
+  	</div>
+	</div>
+	<div class="foot">
+  	<div class="foot-wrapper">
+    	<i class="fas fa-kiwi-bird"></i>
+    	<p>Copyright © 2019 STUDY COACH -スタディー・コーチ- All rights reserved.</p>
+  	</div>
+	</div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+  </body>
+
+</html>
